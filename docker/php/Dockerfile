@@ -13,4 +13,4 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 COPY ./app /var/www/html
 COPY ./docker/php/php.ini /usr/local/etc/php/php.ini
-COPY ./docker/php/xdebug.ini /usr/local/etc/conf.d/xdebug.ini
+COPY ./docker/php/xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini

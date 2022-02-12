@@ -22,7 +22,7 @@ docker-compose up
 
 ### 注意点
 
-CLI上でステップ実行を行うRemote Session上で以下の環境変数の指定が必要です。
+CLIアプリケーションにおいてステップ実行ができない場合はRemote Session上で以下の環境変数を指定してみてください。
 
 ``` shell
 export XDEBUG_MODE=debug
